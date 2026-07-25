@@ -6,11 +6,13 @@
 > system with transactional email.
 
 <p>
+  <a href="https://github.com/ZakariaShahruri/maison-noir/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/ZakariaShahruri/maison-noir/actions/workflows/ci.yml/badge.svg"></a>
   <img alt="Next.js 16" src="https://img.shields.io/badge/Next.js-16-000000?logo=next.js&logoColor=white">
   <img alt="React 19" src="https://img.shields.io/badge/React-19-149ECA?logo=react&logoColor=white">
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-strict-3178C6?logo=typescript&logoColor=white">
   <img alt="Tailwind CSS v4" src="https://img.shields.io/badge/Tailwind_CSS-v4-38BDF8?logo=tailwindcss&logoColor=white">
   <img alt="Sanity" src="https://img.shields.io/badge/CMS-Sanity-F03E2F?logo=sanity&logoColor=white">
+  <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg">
 </p>
 
 > [!NOTE]
@@ -20,10 +22,12 @@
 
 **Live demo:** [maison-noir-rho.vercel.app](https://maison-noir-rho.vercel.app/)
 
-<!--
-  Add a hero screenshot or short GIF at docs/screenshot.png, then uncomment:
-![Maison Noir — cinematic home page](docs/screenshot.png)
--->
+![Maison Noir — cinematic home page](docs/screenshot.jpg)
+
+<p>
+  <img alt="The tasting menu page" src="docs/screenshot-menu.jpg" width="49%">
+  <img alt="The reservation flow" src="docs/screenshot-reservations.jpg" width="49%">
+</p>
 
 ## Highlights
 
