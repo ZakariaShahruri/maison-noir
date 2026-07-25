@@ -149,6 +149,7 @@ address, with the sender as reply-to). Preview templates with `npm run email:dev
 |---|---|
 | `npm run dev` / `build` / `start` | Next.js dev / build / serve |
 | `npm run typecheck` / `lint` | TypeScript / ESLint |
+| `npm run test` / `test:watch` | Run the Vitest suite once / in watch mode |
 | `npm run db:generate` / `db:migrate` / `db:push` / `db:studio` | Drizzle migrations & studio |
 | `npm run email:dev` | Preview React Email templates |
 | `npm run optimize:images` | Recompress large source photos in `public/images` |
