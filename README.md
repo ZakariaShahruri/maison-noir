@@ -79,6 +79,8 @@
 
 ## Getting started
 
+Requires **Node 24+** (see `.nvmrc`).
+
 ```bash
 npm install
 cp .env.example .env.local   # fill in as you connect services (all optional to start)
