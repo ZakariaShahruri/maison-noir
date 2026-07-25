@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Reservations",
   description:
     "Reserve your table at Maison Noir — forty seats, one seating, a single tasting menu served across the evening.",
+  alternates: {
+    canonical: "/reservations",
+  },
 };
 
 export default function ReservationsPage() {

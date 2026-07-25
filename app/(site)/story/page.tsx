@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   title: "Our Story",
   description:
     "The story behind Maison Noir — a Michelin-starred room built on fire, precision, and the people who grow, fish, and forage for us.",
+  alternates: {
+    canonical: "/story",
+  },
 };
 
 export default async function StoryPage() {

@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Menu",
   description:
     "The Maison Noir tasting menu — nine courses of fire, precision, and the season's finest produce.",
+  alternates: {
+    canonical: "/menu",
+  },
 };
 
 function DietaryTags({ dietary }: { dietary?: Dietary[] }) {

@@ -8,6 +8,9 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Contact & Location",
   description: `Visit Maison Noir — ${site.address.line1}, ${site.address.line2}. Opening hours, directions, and contact details.`,
+  alternates: {
+    canonical: "/contact",
+  },
 };
 
 const mapQuery = encodeURIComponent(
