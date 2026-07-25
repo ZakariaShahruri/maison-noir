@@ -57,6 +57,26 @@
 - **Resend** + React Email — confirmation & staff notification emails
 - Fonts: **Fraunces** (display) · **Geist** / **Geist Mono** (body / accents)
 
+## Why these choices
+
+- **Drizzle over Prisma** — a thin SQL-shaped query builder with no codegen step
+  or bundled engine binary, so cold starts on serverless stay light. It also
+  makes the raw SQL migration in `/drizzle` easy to read and audit by hand.
+- **Sanity over a hardcoded CMS** — the menu and story need to be editable by
+  someone non-technical without a redeploy, but the project also had to run
+  with zero setup. Sanity's embedded Studio plus a seed-content fallback
+  (`lib/content/defaults.ts`) gets both.
+- **shadcn/ui over a component library** — the cinematic, bespoke look needed
+  full control over markup and styling. shadcn copies primitives into the repo
+  instead of installing an opinionated package, so nothing fights the design.
+- **Motion + Lenis over CSS-only animation** — the home page's scroll-linked
+  parallax and mask wipes need JS-driven, interruptible timelines that CSS
+  can't express cleanly; Lenis smooths native scroll so those transforms read
+  as deliberate rather than janky.
+- **Resend + React Email over raw SMTP** — transactional email with templates
+  you can preview and iterate on locally (`npm run email:dev`), instead of
+  hand-building HTML strings against a mail server.
+
 ## Getting started
 
 ```bash
