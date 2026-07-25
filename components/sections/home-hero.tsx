@@ -100,8 +100,8 @@ export function HomeHero() {
         className="relative z-10 mx-auto flex h-full max-w-7xl flex-col justify-end px-5 pb-24 sm:px-8 sm:pb-32"
       >
         <motion.p
-          initial={{ opacity: 0, y: 12 }}
-          animate={{ opacity: 1, y: 0 }}
+          initial={{ y: 12 }}
+          animate={{ y: 0 }}
           transition={{ duration: 0.9, ease: EASE, delay: 0.2 }}
           className="text-eyebrow text-gold"
         >
@@ -117,8 +117,8 @@ export function HomeHero() {
         />
 
         <motion.p
-          initial={{ opacity: 0, y: 16 }}
-          animate={{ opacity: 1, y: 0 }}
+          initial={{ y: 16 }}
+          animate={{ y: 0 }}
           transition={{ duration: 1, ease: EASE, delay: 0.9 }}
           className="lead measure mt-7 text-foreground/90"
         >
@@ -127,8 +127,8 @@ export function HomeHero() {
         </motion.p>
 
         <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          animate={{ opacity: 1, y: 0 }}
+          initial={{ y: 16 }}
+          animate={{ y: 0 }}
           transition={{ duration: 1, ease: EASE, delay: 1.05 }}
           className="mt-10 flex flex-wrap items-center gap-4"
         >
