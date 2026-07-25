@@ -131,6 +131,13 @@ address, with the sender as reply-to). Preview templates with `npm run email:dev
 
 ## Accessibility & performance
 
+Lighthouse, audited against the live production deployment (2026-07-25):
+
+| | Performance | Accessibility | Best Practices | SEO |
+|---|:---:|:---:|:---:|:---:|
+| Desktop | 99 | 100 | 100 | 100 |
+| Mobile | 92 | 100 | 100 | 100 |
+
 - Every motion wrapper honours `prefers-reduced-motion` — animations fall back to
   static, and the hero shows a poster frame instead of the looping video.
 - The hero video is **connection-aware**: phones, small screens, and metered or
@@ -140,8 +147,7 @@ address, with the sender as reply-to). Preview templates with `npm run email:dev
   picker is an arrow-key radiogroup.
 - Imagery served through `next/image` (AVIF/WebP, responsive `sizes`); large
   source photos can be recompressed with `npm run optimize:images`.
-- The public pages prerender as static; the home page is designed to hold its
-  Lighthouse scores despite the heavy media.
+- The public pages prerender as static.
 
 ## Scripts
 
